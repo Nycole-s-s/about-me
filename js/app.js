@@ -81,10 +81,10 @@ function questionSix (){
             console.log('user guessed ' + answerSix + ' correctly');
         } else if(answerSix > 2){
             alert(answerSix + ' is incorect. You guessed too high');
-            console.log('user guessed ' + answereSix + ' incorrectly')
+            console.log('user guessed ' + answereSix + ' incorrectly');
         } else if(answerSix < 2){
             alert(answerSix + ' is incorrect. You guessed too low.');
-            console.log('user guessed ' + answereSix + ' incorrectly')
+            console.log('user guessed ' + answereSix + ' incorrectly');
         } 
         if(attemptsRemaining === 0){
             alert('You are out of guesses');
