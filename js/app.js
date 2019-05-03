@@ -5,7 +5,8 @@ var username = prompt('Welcome to the page, what\'s your name?');
 alert('Hello ' + username + ' wanna play a game? Well, we\'re playing it anyway.');
 console.log('the users name is ' + username);
 
-//question
+//question 2
+
 var answer = prompt('I enjoy the beach, yes or no?');
 answer = answer.toLowerCase();
 if (answer == 'yes') {
